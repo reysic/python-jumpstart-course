@@ -3,4 +3,7 @@ print('        HELLO APP')
 print('-------------------------------')
 print()
 
-input('What is your name? ')
+user_text = input('What is your name? ')
+greeting = 'Nice to meet you ' + user_text
+
+print(greeting)
